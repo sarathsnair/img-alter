@@ -21,24 +21,44 @@
             for (var i = 0; i < imageurls.length; i++) {
                 (function(i) {
                     var obj = {
-                        "url": imageurls[i]
-                    }
-                    $.ajax({
-                        url: url,
-                        type: "POST",
-                        dataType: "json",
-                        headers: {
-                            "Ocp-Apim-Subscription-Key": apikey,
-                            "Content-Type": "application/json"
-                        },
-                        data: JSON.stringify(obj),
-                        success: function(data) {
-                            setAltTags(images[i], data.description.captions[0].text);
-                        },
-                        error: function(error) {
-                            console.log(error);
-                        },
-                    });
+                            "url": imageurls[i]
+                        }
+                        /*$.ajax({
+                            url: url,
+                            type: "POST",
+                            dataType: "json",
+                            headers: {
+                                "Ocp-Apim-Subscription-Key": apikey,
+                                "Content-Type": "application/json"
+                            },
+                            data: JSON.stringify(obj),
+                            success: function(data) {
+                                setAltTags(images[i], data.description.captions[0].text);
+                            },
+                            error: function(error) {
+                                console.log(error);
+                            },
+                        });*/
+
+
+                    var xmlhttp = new XMLHttpRequest();
+                    xmlhttp.open("POST", url, true);
+                    xmlhttp.setRequestHeader("Content-type", "application/json");
+                    xmlhttp.setRequestHeader('Access-Control-Allow-Headers', 'x-requested-with');
+                    xmlhttp.setRequestHeader("Ocp-Apim-Subscription-Key", apikey);
+                    xmlhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+                    xmlhttp.onreadystatechange = function() {
+                        if (xmlhttp.readyState == XMLHttpRequest.DONE && xmlhttp.status == 200) {
+                            //console.log(xmlhttp.responseText);
+                            setAltTags(images[i], JSON.parse(xmlhttp.responseText).description.captions[0].text);
+                        } else if (xmlhttp.status == 400) {
+                            console.log("ther is an error");
+                        } else {
+                            console.log("Something other than 200 is returned");
+                        }
+                    };
+                    xmlhttp.send(JSON.stringify(obj));
+
                 })(i);
             }
         }
