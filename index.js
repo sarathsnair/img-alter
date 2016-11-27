@@ -34,27 +34,28 @@
             var images = $('img');
             var imageurls = getImageURL();
             for (var i = 0; i < imageurls.length; i++) {
-                var obj = {
-                    "url": imageurls[i]
-                }
-                $.ajax({
-                    url: url,
-                    type: "POST",
-                    dataType: "json",
-                    headers: {
-                        "Ocp-Apim-Subscription-Key": apikey,
-                        "Content-Type": "application/json"
-                    },
-                    data: JSON.stringify(obj),
-                    success: function(data) {
-                        console.log("URL = " + obj.url);
-                        console.log(data.description.captions[0].text);
-                    },
-                    error: function(error) {
-                        console.log(error);
-                    },
-                });
-
+                (function(i) {
+                    var obj = {
+                        "url": imageurls[i]
+                    }
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        dataType: "json",
+                        headers: {
+                            "Ocp-Apim-Subscription-Key": apikey,
+                            "Content-Type": "application/json"
+                        },
+                        data: JSON.stringify(obj),
+                        success: function(data) {
+                            console.log("URL = " + obj.url);
+                            console.log(data.description.captions[0].text);
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        },
+                    });
+                })(i);
             }
         }
     }
