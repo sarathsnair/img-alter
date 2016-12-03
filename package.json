@@ -1,6 +1,6 @@
 {
   "name": "img-alter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Javascript module to fill 'alt' attributes of an image tag using microsoft vision api.",
   "main": "img-alter.js",
   "scripts": {
