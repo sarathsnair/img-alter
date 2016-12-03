@@ -2,7 +2,7 @@
     "use strict";
 
     var ImageAlter = {
-        fetchImageAltTags: function(obj) {
+        fillImageAltTags: function(obj) {
             if (typeof obj === null || !obj.apiKey) {
                 console.warn("img-alter needs Microsoft Vision API Key to work properly.");
                 return -1;
