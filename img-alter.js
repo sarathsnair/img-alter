@@ -15,7 +15,7 @@
             var setAltTags = function(image, altTagString) {
                 image.setAttribute('alt', altTagString);
             };
-            var images = $('img');
+            var images = document.getElementsByTagName("img");
             var imageurls = getImageURL();
             var arr = [];
             for (var i = 0; i < imageurls.length; i++) {
