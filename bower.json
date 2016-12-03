@@ -5,7 +5,7 @@
     "authors": [
         "Sarath S Nair <sarathsnairxyz@gmail.com>"
     ],
-    "description": "A Javascript module to fill 'alt' attributes of an image tag using microsoft vision api.",
+    "description": "A Javascript module to fill 'ALT' attribute of all images in a webpage using Microsoft Vision API.",
     "main": "index.js",
     "keywords": [
         "vision",
