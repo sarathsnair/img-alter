@@ -2,8 +2,12 @@
     "use strict";
 
     var ImageAlter = {
-        fetchImageAltTags: function() {
-            var apikey = "e819d57ca4064af4ada5ae1cc4ff0628";
+        fetchImageAltTags: function(obj) {
+            if (typeof obj === null || !obj.apiKey) {
+                console.warn("img-alter needs Microsoft Vision API Key to work properly.");
+                return -1;
+            }
+            var apikey = obj.apiKey;
             var url = "https://api.projectoxford.ai/vision/v1.0/describe";
             var getImageURL = function() {
                 var arr = [];
