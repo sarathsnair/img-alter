@@ -21,26 +21,8 @@
             for (var i = 0; i < imageurls.length; i++) {
                 (function(i) {
                     var obj = {
-                            "url": imageurls[i]
-                        }
-                        /*$.ajax({
-                            url: url,
-                            type: "POST",
-                            dataType: "json",
-                            headers: {
-                                "Ocp-Apim-Subscription-Key": apikey,
-                                "Content-Type": "application/json"
-                            },
-                            data: JSON.stringify(obj),
-                            success: function(data) {
-                                setAltTags(images[i], data.description.captions[0].text);
-                            },
-                            error: function(error) {
-                                console.log(error);
-                            },
-                        });*/
-
-
+                        "url": imageurls[i]
+                    }
                     var xmlhttp = new XMLHttpRequest();
                     xmlhttp.open("POST", url, true);
                     xmlhttp.setRequestHeader("Content-type", "application/json");
