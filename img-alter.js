@@ -1,4 +1,6 @@
 (function() {
+    "use strict";
+
     var ImageAlter = {
         fetchImageAltTags: function() {
             var apikey = "e819d57ca4064af4ada5ae1cc4ff0628";
