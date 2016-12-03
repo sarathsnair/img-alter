@@ -1,33 +1,30 @@
 {
-  "name": "img-alter",
-  "version": "0.0.1",
-  "homepage": "https://github.com/sarathsnair/img-alter",
-  "authors": [
-    "Sarath S Nair <sarathsnairxyz@gmail.com>"
-  ],
-  "description": "A Javascript module to fill 'alt' attributes of an image tag using microsoft vision api.",
-  "main": "index.js",
-  "keywords": [
-    "vision",
-    "api",
-    "alt",
-    "tag",
-    "artificial",
-    "intelligence",
-    "vision",
-    "api",
-    "microsoft"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "jquery": "^3.1.1"
-  },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "websrc/app/lib",
-    "test",
-    "tests"
-  ]
+    "name": "img-alter",
+    "version": "0.0.1",
+    "homepage": "https://github.com/sarathsnair/img-alter",
+    "authors": [
+        "Sarath S Nair <sarathsnairxyz@gmail.com>"
+    ],
+    "description": "A Javascript module to fill 'alt' attributes of an image tag using microsoft vision api.",
+    "main": "index.js",
+    "keywords": [
+        "vision",
+        "api",
+        "alt",
+        "tag",
+        "artificial",
+        "intelligence",
+        "vision",
+        "api",
+        "microsoft"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "websrc/app/lib",
+        "test",
+        "tests"
+    ]
 }
