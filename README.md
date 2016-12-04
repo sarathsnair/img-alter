@@ -21,31 +21,31 @@ With [bower](https://bower.io) :
 
 ## Sample Images with Captions
 
-![bill clinton](http://www.gannett-cdn.com/-mm-/fef8131c29b275565180e501a489e5973ad71e0c/r=x203&c=200x200/local/-/media/USATODAY/USATODAY/2013/01/09/billclinton-dnc-1_1.jpg)
+![bill clinton](https://github.com/sarathsnair/img-alter/blob/master/images/bill_clinton.jpg)
 
 Bill Clinton in a suit and tie
 
 
-![Laptop](http://ecx.images-amazon.com/images/I/41+Twb04JvL._AC_SS200_.jpg)
+![Laptop](https://github.com/sarathsnair/img-alter/blob/master/images/laptop.jpg)
 
 a laptop computer
 
 
-![Fireworks](https://11111-presscdn-0-2-pagely.netdna-ssl.com/wp-content/uploads/2016/05/fireworks-2-200x200.jpg)
+![Fireworks](https://github.com/sarathsnair/img-alter/blob/master/images/fireworks.jpg)
 
 a fireworks in the dark
 
 
-![Pizza](http://s.hswstatic.com/gif/recipes/easy-personal-pizza-recipe-1.jpg)
+![Pizza](https://github.com/sarathsnair/img-alter/blob/master/images/pizza.jpg)
 
 a close up of a pizza on a wooden table
 
 
-![Plane](http://blogs-images.forbes.com/thumbnails/blog_2092/pt_2092_2592_o.jpg?t=1356633506&width=200&height=200)
+![Plane](https://github.com/sarathsnair/img-alter/blob/master/images/jet_plane.jpg)
 
 a fighter jet flying in the sky
 
 
-![Woman](http://images.freeimages.com/images/premium/large-thumbs/4642/46425206-happy-young-woman-talking-on-mobile-phone.jpg)
+![Woman](https://github.com/sarathsnair/img-alter/blob/master/images/woman.jpg)
 
 a woman talking on a cell phone
