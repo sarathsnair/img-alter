@@ -1,5 +1,5 @@
 # img-alter
-A Javascript module to fill 'ALT' attribute of all images in an HTML file using [Microsoft Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api). This can be used to recognize an image content using screen readers.
+A Javascript module to fill 'ALT' attribute of all images in a web page using [Microsoft Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api).
 
 **Installation**
 
