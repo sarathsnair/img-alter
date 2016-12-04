@@ -1,7 +1,7 @@
 # img-alter
 A Javascript module to fill 'ALT' attribute of all images in a web page using [Microsoft Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api).
 
-**Installation**
+## Installation
 
 With [npm](https://www.npmjs.com/) :
 
@@ -11,7 +11,7 @@ With [bower](https://bower.io) :
 
 > bower install img-alter
 
-**Usage**
+## Usage
  1. Install the package either using npm or bower
  2. Add the script in html file. 
  `<script src="bower_components/img-alter/img-alter.js" type="text/javascript"></script>` 
@@ -19,7 +19,7 @@ With [bower](https://bower.io) :
  4. Invoke `ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})` once the page loading complete. Replace `xxxxxxxxxxxxx` with your own API Key from step 3.
 
 
-**Sample Images with Captions**
+## Sample Images with Captions
 
 ![bill clinton](http://www.gannett-cdn.com/-mm-/fef8131c29b275565180e501a489e5973ad71e0c/r=x203&c=200x200/local/-/media/USATODAY/USATODAY/2013/01/09/billclinton-dnc-1_1.jpg)
 
