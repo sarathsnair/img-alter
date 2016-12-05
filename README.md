@@ -23,31 +23,31 @@ With [bower](https://bower.io) :
 
 ## Sample Images with Captions
 
-![bill clinton](https://github.com/sarathsnair/img-alter/blob/master/images/bill_clinton.jpg)
+![bill clinton](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/bill_clinton.jpg)
 
 Bill Clinton in a suit and tie
 
 
-![Laptop](https://github.com/sarathsnair/img-alter/blob/master/images/laptop.jpg)
+![Laptop](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/laptop.jpg)
 
 a laptop computer
 
 
-![Fireworks](https://github.com/sarathsnair/img-alter/blob/master/images/fireworks.jpg)
+![Fireworks](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/fireworks.jpg)
 
 a fireworks in the dark
 
 
-![Pizza](https://github.com/sarathsnair/img-alter/blob/master/images/pizza.jpg)
+![Pizza](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/pizza.jpg)
 
 a close up of a pizza on a wooden table
 
 
-![Plane](https://github.com/sarathsnair/img-alter/blob/master/images/jet_plane.jpg)
+![Plane](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/jet_plane.jpg)
 
 a fighter jet flying in the sky
 
 
-![Woman](https://github.com/sarathsnair/img-alter/blob/master/images/woman.jpg)
+![Woman](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/woman.jpg)
 
 a woman talking on a cell phone
