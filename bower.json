@@ -25,6 +25,7 @@
         "bower_components",
         "websrc/app/lib",
         "test",
-        "tests"
+        "tests",
+        "images"
     ]
 }
