@@ -1,6 +1,6 @@
 {
     "name": "img-alter",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "A Javascript module to fill 'ALT' attribute of all images in a webpage using Microsoft Vision API.",
     "main": "img-alter.js",
     "scripts": {
