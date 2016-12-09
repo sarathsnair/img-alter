@@ -13,7 +13,7 @@ With [bower](https://bower.io) :
 
 > bower install img-alter --save
 
-### 3) Add `img-alter.js` or `img-alter.min.js` in html file. 
+### 3) Add `img-alter.js` or `img-alter.min.js` to html file. 
  `<script src="bower_components/img-alter/img-alter.js" type="text/javascript"></script>` 
 ### 4) Invoke API
 Once the page load completes, Invoke `ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})`, which will replace the alternative attribute of images with the caption. Replace `xxxxxxxxxxxxx` with your own API Key.
