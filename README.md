@@ -15,7 +15,7 @@ With [bower](https://bower.io) :
 ## Usage
  1. Get free Microsoft Vision API Key from [here.](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api) 
  2. Install `img-alter` either using `npm` or `bower`
- 3. Add `img-alter.js` script in html file. 
+ 3. Add `img-alter.js` or `img-alter.min.js` in html file. 
  `<script src="bower_components/img-alter/img-alter.js" type="text/javascript"></script>` 
  4. Once the page load completes, Invoke `ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})`, which will replace the alternative attribute of images with the caption. Replace `xxxxxxxxxxxxx` with your own API Key.
 
