@@ -40,9 +40,9 @@
                             //console.log(xmlhttp.responseText);
                             setAltTags(images[i], JSON.parse(xmlhttp.responseText).description.captions[0].text);
                         } else if (xmlhttp.status == 400) {
-                            console.log("ther is an error");
+                            console.log("image-alter : ther is an error");
                         } else {
-                            console.log("Something other than 200 is returned");
+                            console.log("image-alter : Something other than 200 is returned");
                         }
                     };
                     xmlhttp.send(JSON.stringify(obj));
