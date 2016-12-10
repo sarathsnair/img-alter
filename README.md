@@ -18,7 +18,10 @@ With [bower](https://bower.io) :
  `<script src="bower_components/img-alter/img-alter.js" type="text/javascript"></script>` 
 ### 4) Invoke API
 Once the page load completes, Invoke
-`ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})`, which will replace the alternative attribute of images with the caption. Replace `xxxxxxxxxxxxx` with your own API Key.
+
+> `ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})`
+
+This will replace alternative attribute of all images with its caption. Replace `xxxxxxxxxxxxx` with your own API Key.
 
 
 ## Sample Images with Captions
