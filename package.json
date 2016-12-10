@@ -3,9 +3,6 @@
     "version": "0.1.2",
     "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its own caption",
     "main": "img-alter.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "keywords": [
         "vision",
         "api",
