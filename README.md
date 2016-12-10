@@ -21,7 +21,7 @@ Once the page load completes, Invoke
 
 > `ImageAlter.fillImageAltTags({apiKey:"xxxxxxxxxxxxx"})`
 
-This will replace alternative attribute of all images with its caption. Replace `xxxxxxxxxxxxx` with your own API Key.
+This will replace alternative attribute of all images in a webpage with its caption. Replace `xxxxxxxxxxxxx` with your own API Key.
 
 
 ## Sample Images with Captions
