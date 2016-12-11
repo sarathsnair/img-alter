@@ -5,7 +5,7 @@
     "authors": [
         "Sarath S Nair <sarathsnairxyz@gmail.com>"
     ],
-    "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its own caption",
+    "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its caption",
     "main": "index.js",
     "keywords": [
         "vision",
