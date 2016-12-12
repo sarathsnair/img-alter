@@ -1,31 +1,35 @@
 {
-    "name": "img-alter",
-    "version": "0.1.4",
-    "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its caption",
-    "main": "img-alter.js",
-    "keywords": [
-        "vision",
-        "api",
-        "alt",
-        "tag",
-        "artificial",
-        "intelligence",
-        "vision",
-        "api",
-        "microsoft"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sarathsnair/img-alter.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/sarathsnair/img-alter/issues"
-    },
-    "homepage": "https://github.com/sarathsnair/img-alter#readme",
-    "devDependencies": {
-        "grunt": "^1.0.1",
-        "grunt-contrib-uglify": "^2.0.0"
-    }
+  "name": "img-alter",
+  "version": "0.0.0-development",
+  "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its caption",
+  "main": "img-alter.js",
+  "keywords": [
+    "vision",
+    "api",
+    "alt",
+    "tag",
+    "artificial",
+    "intelligence",
+    "vision",
+    "api",
+    "microsoft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarathsnair/img-alter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarathsnair/img-alter/issues"
+  },
+  "homepage": "https://github.com/sarathsnair/img-alter#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "semantic-release": "^6.3.2"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  }
 }
