@@ -1,6 +1,6 @@
 {
   "name": "img-alter",
-  "version": "0.0.0-development",
+  "version": "0.1.5",
   "description": "Caption images using Microsoft vision cognitive services and fills 'alt' text attributes of images with its caption",
   "main": "img-alter.js",
   "keywords": [
