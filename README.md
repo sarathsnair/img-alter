@@ -55,3 +55,9 @@ a fighter jet flying in the sky
 ![Woman](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/woman.jpg)
 
 a woman talking on a cell phone
+
+## Having Trouble
+If you are having trouble using this library, please open a [New Issue](https://github.com/sarathsnair/img-alter/issues/new)
+
+## Love this project? 
+Just give it a star(⭐️) and spread the word.
