@@ -16,7 +16,7 @@ With [bower](https://bower.io) :
 > bower install img-alter --save
 
 ### 3) Add `img-alter.js` or `img-alter.min.js` to html file. 
- `<script src="bower_components/img-alter/img-alter.js" type="text/javascript"></script>` 
+ `<script src="img-alter.js" type="text/javascript"></script>` 
 ### 4) Invoke API
 Once the page load completes, Invoke
 
