@@ -1,6 +1,6 @@
 # img-alter
 [![Build Status](https://travis-ci.org/sarathsnair/img-alter.svg?branch=master)](https://travis-ci.org/sarathsnair/img-alter)
-####A Javascript module to fill 'ALT' attribute of all images in a web page using [Microsoft Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api).
+#### A Javascript module to fill 'ALT' attribute of all images in a web page using [Microsoft Vision API](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api).
 ![sample gif file](https://raw.githubusercontent.com/sarathsnair/img-alter/master/images/sample.gif)
 
 ## Installation and Usage
